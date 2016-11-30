@@ -1,0 +1,197 @@
+body,html{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height:100%;
+    /*overflow: hidden;*/
+}
+
+/*头部*/
+header{
+    width: 100%;
+    height: 60px;
+    background: #168bd8;
+    position: fixed;
+    top:0;
+    left:0;
+}
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header a{
+    color: #fff;
+}
+.log{
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    background: url("../img/header_z_94c6de7.png") no-repeat 0 0;
+}
+.log{
+   margin-bottom: 10px;
+}
+.home{
+    margin-bottom: 10px;
+}
+.last{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.home:nth-child(2){
+     margin-left: 30px;
+ }
+.last:nth-child(5){
+    margin-left: 120px;
+    /*background: url("../img/header_z_94c6de7.png") no-repeat right -179px;*/
+}
+.last:last-child{
+    color: #FFDA28;
+}
+
+
+
+/*内容*/
+#fullpage{
+    width: 100%;
+    height: 400%;
+}
+section{
+    width: 100%;
+    height:25%;
+}
+section:nth-child(1){
+    background: url("../img/bg-0.jpg") no-repeat;
+}
+section:nth-child(2){
+    background: url("../img/bg-1.jpg") no-repeat;
+}
+section:nth-child(3){
+    background: url("../img/bg-2.jpg") no-repeat;
+}
+section:nth-child(4){
+    background: url("../img/bg-3.jpg") no-repeat;
+}
+.one{
+    display: table-cell;/*让标签元素以表格单元格的形式呈现,与其他一些display属性类似，table-cell同样会被其他一些CSS属性破坏，例如float, position:absolute，所以，在使用display:table-cell与float:left或是position:absolute 属性尽量不用同用。设置了display:table-cell的元素对宽度高度敏感，对margin值无反应*/
+    /*把此元素放置在父元素的中部。*/
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    /*position: relative;*/
+}
+.top{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.bg-cloud-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: url(../img/cloud_1_1d4924b.png) repeat;
+}
+ .middle {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+}
+.bg-cloud-2 {
+    position: absolute;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: url(../img/cloud_2_a186193.png) repeat;
+}
+.bottom {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.bg-cloud-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: url(../img/cloud_3_5ee0340.png) repeat;
+}
+.follow-head {
+    height: 126px;
+    background: #0d71cd url(../img/bg-1_e29bcfa.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+ .center {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+ .obj{
+     position: absolute;
+ }
+.obj-hill-2 {
+    width: 63px;
+    height: 78px;
+    background: url(../img/hill_2_540422f.png);
+    right: 288px;
+    top: -13px;
+}
+.obj-hill-3 {
+    width: 260px;
+    height: 175px;
+    background: url(../img/hill_3_ace39fb.png);
+    right: -129px;
+    top: -47px;
+}
+.obj-hill-1 {
+    width: 265px;
+    height: 175px;
+    background: url(../img/hill_1_0d79217.png);
+    left: -182px;
+    top: -50px;
+}
+.obj-ship {
+    width: 242px;
+    height: 228px;
+    background: url(../img/ship_1ad6734.png);
+    left: 100px;
+    top: -191px;
+}
+/*.active .obj-ship {*/
+    /*left: 126px;*/
+/*}*/
+
+
+/*第二个section*/
+.title{
+    position: absolute;
+    top:100px;
+    left:20px;
+    border: 1px solid red;
+}
+.title1{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 500px;
+    color: #fff;
+}
+.title1 h3{
+    background: url(../img/h_lingxian_221f2d8.png) no-repeat;
+    width: 66px;
+    height: 126px;
+    float: left;
+}
+
+
